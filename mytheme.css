@@ -80,11 +80,14 @@ li, .mainmenu {
 
 .contactmeboxes {
     padding: 10px;
-    text-align: center;
     border-radius: 5px;
-    width: 150px;
+    width: 518px;
     height: 60px;
     display: inline-block;
+    margin-bottom:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: gray;
 }
 
 .list {
@@ -128,17 +131,50 @@ li, .mainmenu {
     padding: 20px;
     text-align: center;
 }
-<!-- ID CSS -->
+/*       CONTACT ME PAGE                */
+.body {
+    background-color: black;
+    width: 100%;
+}
+form {
+    width:540px;
+}
+#textboxst {
+    display: inline;
+    text-align: left;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 17px;
+    color: white;
+    font-family: "lucida console";
+    resize: none;
+    width:400px;
+    height:40px;
+}
+#text_area {  
+    display: inline;
+    text-align: left;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 17px;
+    color: white;
+    font-family: "lucida console";
+    resize: none;}
+
+/*      ID CSS                   */
 #temp {
     position: absolute;
     float: center;
     margin-right: 0px;
     color: white;
 }
-#footer, #Social_Media{
+
+#footer, #Social_Media {
     color: white;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
+
 </style >
