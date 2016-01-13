@@ -139,7 +139,10 @@ li, .mainmenu {
 form {
     width:540px;
 }
-#textboxst {
+#email {
+    margin-left: 33px;
+}
+#firstname, #email {
     display: inline;
     text-align: left;
     padding: 3px;
@@ -176,5 +179,10 @@ form {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+#container {
+    margin-left:auto;
+    margin-right:auto;
+    width:600px;
+    text-align:center;
+}
 </style >
