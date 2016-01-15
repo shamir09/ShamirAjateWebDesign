@@ -140,7 +140,7 @@ body {
     border: 0px;
     padding: 0px;
     width: 100%;
-    height: 4684px;
+    height: auto;
     text-align: center;
 }
 
@@ -152,9 +152,8 @@ img {
 
 form {
     width: 540px;
-    left: 500px;
     color: white;
-    text-align:center;
+    text-align: center;
     font-family: "lucida console";
     font-size: 17px;
 }
@@ -176,7 +175,7 @@ form {
     width: 400px;
     height: 40px;
     bottom: 20px;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
 #text_area {
@@ -195,10 +194,12 @@ form {
     background-color: #41BB67;
     color: white;
 }
+
 #reset_btn {
     background-color: #F6FF6B;
     color: #A97E7E;
 }
+
 footer, #Social_Media {
     color: white;
     text-align: center;
@@ -206,16 +207,12 @@ footer, #Social_Media {
 }
 
 #container_box {
-    margin-left: 680px;
-    margin-right: auto;
+    text-align: -webkit-center;
     margin-bottom: 30px;
-    text-align: center;
-    display: block;
-
-
 }
+
 h1 {
     color: white;
-    font-family:'Trebuchet MS';
+    font-family: 'Trebuchet MS';
     font-size: 60px;
 }
