@@ -206,6 +206,7 @@ footer, #Social_Media {
 
 #container_box {
     text-align: -webkit-center;
+    text-align: -moz-center;
     margin-bottom: 30px;
 }
 
