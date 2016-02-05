@@ -14,6 +14,17 @@ a:hover {
     text-decoration: none;
 }
 
+body {
+    font-family: "Verdana", "Times New Roman", "Sans";
+    color: white;
+    background-color: #fff;
+    font-size: 1.2em;
+    width: 1600;
+    height: auto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .header {
     font-family: "Eras Bold ITC", "Verdana","Comic Sans Ms";
@@ -40,20 +51,6 @@ li, .mainmenu {
     padding: 20px;
     list-style-type: none;
     text-decoration: none;
-}
-
-.body {
-    font-family: "Verdana", "Times New Roman", "Sans";
-    color: white;
-    background-color: black;
-    font-size: 1.2em;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 90%;
-    height: auto;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .article {
@@ -202,6 +199,7 @@ form {
 
 footer, #Social_Media {
     color: white;
+    background-color: black;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
