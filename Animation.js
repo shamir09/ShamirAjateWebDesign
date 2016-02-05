@@ -1,6 +1,10 @@
 // JavaScript source code
 $(document).ready(function () {
-    $('#Logo').hide().fadeIn(2000);
-    $('#WebDesigns').hide().fadeIn(800).slideDown(1000);
+    $('#Logo').hide().fadeIn(1000);
+    $('#WebDesigns').hide().fadeIn(6000);
+    $('#LogoCreationBanner').hide().slideDown(500);
+    $('#WebDesignBanner').hide().slideDown(500);
+    $('#UIDesignBanner').hide().slideDown(500);
+    $('#PromotionalBanner').hide().slideDown(600);
  }
 );
