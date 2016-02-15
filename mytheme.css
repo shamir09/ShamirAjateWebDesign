@@ -14,12 +14,12 @@ a:hover {
     text-decoration: none;
 }
 
-body {
+html {
     font-family: "Verdana", "Times New Roman", "Sans";
     color: white;
     background-color: #fff;
     font-size: 1.2em;
-    width: 1600;
+    width: 100%;
     height: auto;
     text-align: left;
     margin-left: auto;
@@ -57,10 +57,10 @@ li, .mainmenu {
     font-family: "Verdana";
     color: white;
     background-color: black;
-    font-size: 1.2em; <!--
-    22.4px/16 = 1.875em--> padding-left: 30px;
+    font-size: 1.2em;
+    padding-left: 30px;
     padding-right: 30px;
-    width: 90%;
+    width: 100%;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
@@ -69,7 +69,7 @@ li, .mainmenu {
 .center {
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
     background-color: black;
     padding: 10px;
     text-align: center;
