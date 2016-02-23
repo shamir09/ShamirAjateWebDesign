@@ -209,20 +209,23 @@ footer, #Social_Media {
     text-align: -moz-center;
     margin-bottom: 30px;
 }
-
-h1 {
+#contactMeHeader {
+  color: lightgray;
+  font-family: 'Trebuchet MS';
+  font-size: 60px;
+  margin-top: 50px;
+}
+#seeAppsLink{
     color: lightgray;
     font-family: 'Trebuchet MS';
     font-size: 60px;
     margin-top: 50px;
 }
-h3 {
+
+h2 {
     display:inline;
     font-family: 'Arial';
     font-size: 30px;
-    margin-top: 30px;
-}
-.gotoglyph {
-  display:inline;
-  font-size: x-large;
+    margin-top: 15px;
+    text-align: left;
 }
