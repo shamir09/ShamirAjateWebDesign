@@ -2,7 +2,7 @@
 
 #### Hi there my name is Shamir Ajate and I'm a Web Dev working with mulpiple technologies such as Javascript, Jquery, Angular, C#, ASP.Net, Entity Framework, and more. I like developing web apps always coming up with ideas on my spare time and trying to implement them. If you want to see some of my work go to my website.
 
-##### I'm open to new ideas, if you have anything you'd like to see please contact me.
+##### I'm open to new ideas, if you have anything you'd like to see please contact me. Freelancing graphic design, web development, and SEO. Feel free to contact me with questions.
 
 ##www.ShamirAjate.com
 
