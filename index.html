@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en-Us">
-<head>
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" lang="en-Us">
-    <title>Shamir Ajate : Welcome to my Web Site, I am a Web Designer I would love to meet you.</title>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" lang="en-Us">
+      <title>Shamir Ajate : Welcome to my Web Site, I am a Web Designer I would love to meet you.</title>
+      <link rel="icon" type="image/ico" href="favicon.ico">
 
-    <link rel="icon" type="image/ico" href="favicon.ico">
+      <!--BOOTSTRAP & JQUERY CDN LINK -->
+      <!--<link rel="stylesheet" type="text/css" href="mytheme.css">-->
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-    <!--<link rel="stylesheet" type="text/css" href="mytheme.css">-->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="themecss.css">
-    <link rel="stylesheet" type="text/css" href="mytheme.css">
-    <script type="text/javascript" src="animation.js"></script>
+      <!-- MY SCRIPTS & STYLESHEETS -->
+      <link rel="stylesheet" type="text/css" href="mytheme.css">
+      <link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
 
-    <meta name="description" content="Web and Graphic designer. Bring your ideas to life! HTML/CSS" />
-    <meta name="keywords" content="Web Design, Graphic Design, CSS, Shamir, Ajate, Website, Photoshop, HTML" />
-    <meta name="author" content="Shamir Ajate" />
+      <script type="text/javascript" src="animation.js"></script>
 
-    <link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+      <meta name="description" content="Web and Graphic designer. Bring your ideas to life! HTML/CSS" />
+      <meta name="keywords" content="Web Design, Graphic Design, CSS, Shamir, Ajate, Website, Photoshop, HTML" />
+      <meta name="author" content="Shamir Ajate" />
 
-</head>
+
+
+  </head>
 <body>
     <img src="images/shamirajatelogo.jpg" id="Logo" alt="Logo" draggable="false">
 
@@ -39,70 +42,73 @@
     <img src="images/WrapsAdvertising.jpg" id="PromotionalBanner"alt="Promotional" draggable="false">
 
 <h1 id="seeAppsLink"> See some apps running live.. </h1>
-    <a href="http://shamirajate.com/mg6000/index.html">
-          <h2> <span class="glyphicon glyphicon-share-alt" class="gotoglyph"></span>  Mr.Glass MG-6000 Windload Calculator</h2> </a><br/>
-    <a href="http://shamirajate.com/lucianoFlooring/index.html">
-          <h2><span class="glyphicon glyphicon-share-alt" class="gotoglyph"></span>   Luciano's Flooring Company Estimating Tool </h2></a>
+      <a href="http://shamirajate.com/mg6000/index.html"><img src="images/App1_MrGlassManufc_MG6000.jpg" id="mrGlassAppImage"></a>
+
+      <a href="http://shamirajate.com/lucianoFlooring/index.html"><img src="images/App2_LucianoFlooring.jpg" id="lucianoAppimage"></a>
+
+      <a href="http://shamirajate.com/safeAway/index.html"><img src="images/App3_Safe_Away_Pet_Sitters.jpg" id="safeAwayAppimage"></a>
 
     <!--                  FORM                     -->
-<h1 id="contactMeHeader"><span class="glyphicon glyphicon-envelope"></span>  Contact Me</h1>
-    <div id="container_box">
-        <form name="contactform" method="post" action="sendform.php">
+<div id="contactMeContainer">
+    <h1 id="contactMeHeader"><span class="glyphicon glyphicon-envelope"></span>  Contact Me</h1>
+        <div id="container_box">
+            <form name="contactform" method="post" action="sendform.php">
 
-            Full Name:
-            <input type="text" name="fname" maxlength="15" id="firstname" placeholder="Your name" required></br>
+                Full Name:
+                <input type="text" name="fname" maxlength="15" id="firstname" placeholder="Your name" required></br>
 
-            E-mail:
-            <input type="text" name="email" maxlength="30" id="email" placeholder="name@gmail.com" required></br>
+                E-mail:
+                <input type="text" name="email" maxlength="30" id="email" placeholder="name@gmail.com" required></br>
 
-            <textarea name="body" maxlength="200" cols="50" rows="6" id="text_area" placeholder="Hi there, Please tell me what you thought of my Page. You can connect with me at the click of a button" required></textarea>
+                <textarea name="body" maxlength="200" cols="50" rows="6" id="text_area" placeholder="Hi there, Please tell me what you thought of my Page. You can connect with me at the click of a button" required></textarea>
 
-            <input type="submit" value="Submit" class="contactmeboxes" id="submit_btn">
-            <input type="reset" value="Reset" class="contactmeboxes" id="reset_btn">
+                <input type="submit" value="Submit" class="contactmeboxes" id="submit_btn">
+                <input type="reset" value="Reset" class="contactmeboxes" id="reset_btn">
 
-        </form>
-    </div>
-
+            </form>
+        </div>
+</div>
     <div id="Social_Media">
         <a href="http://www.github.com/shamir09" border="0">
-            <img src="index/aboutme/Github1.gif" width="110" height="125" border="0" draggable="false"
-                 onmouseover="this.src='index/aboutme/Github2.gif';" style="margin-top:-18px";
+            <img src="index/aboutme/Github1.gif" id="github_logo"
+                 onmouseover="this.src='index/aboutme/Github2.gif';" ;
                  onmouseout="this.src='index/aboutme/Github1.gif';"
                  alt="You can get in touch with me through here">
         </a>
 
         <a href="http://www.twitter.com/shamirajate" border="0">
-            <img src="index/aboutme/twi1.gif" width="120" height="160" border="0" draggable="false"
+            <img src="index/aboutme/twi1.gif" id="twitter_logo"
                  onmouseover="this.src='index/aboutme/twi2.gif';"
                  onmouseout="this.src='index/aboutme/twi1.gif';"
                  alt="You can get in touch with me through here">
         </a>
 
         <a href="https://plus.google.com/+ShamirAjateFuentes" border="0">
-            <img src="index/aboutme/goog1.gif" width="120" height="160" border="0" draggable="false"
+            <img src="index/aboutme/goog1.gif" id="gplus_logo"
                  onmouseover="this.src='index/aboutme/goog2.gif';"
                  onmouseout="this.src='index/aboutme/goog1.gif';"
                  alt="You can get in touch with me through here">
         </a>
 
         <a href="http://www.instagram.com/shamir9988" border="0">
-            <img src="index/aboutme/inst1.gif" width="120" height="160" border="0" draggable="false"
+            <img src="index/aboutme/inst1.gif" id="instagram_logo"
                  onmouseover="this.src='index/aboutme/inst2.gif';"
                  onmouseout="this.src='index/aboutme/inst1.gif';" alt="You can get in touch with me through here">
         </a>
 
-        </div>
+    </div>
 
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- MainPage -->
-    <ins class="adsbygoogle"
-         style="display:inline-block;width:728px;height:90px"
-         data-ad-client="ca-pub-2076273842812530"
-         data-ad-slot="3933935773"></ins>
-    <script>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- MainPage -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:728px;height:90px"
+             data-ad-client="ca-pub-2076273842812530"
+             data-ad-slot="3933935773"></ins>
+        <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
 <br/>
+
     <footer>
         Copyright &copy; 2014   All rights reserved ShamirAjate.com
     </footer>

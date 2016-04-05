@@ -127,6 +127,7 @@ body {
     width: 100%;
     height: auto;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 img {
@@ -134,6 +135,12 @@ img {
     margin: 0px;
     border: 0px;
     padding: 0px;
+    width: 100%;
+}
+#mrGlassAppImage, #lucianoAppimage, #safeAwayAppimage{
+  width:550px;
+  height:650px;
+  padding-top: 5px;
 }
 
 form {
@@ -142,6 +149,15 @@ form {
     text-align: center;
     font-family: "lucida console";
     font-size: 17px;
+}
+#twitter_logo, #gplus_logo, #instagram_logo {
+    width: 130px;
+    height: 203px;
+}
+#github_logo {
+    width:130px;
+    height:160px;
+    margin-top:-18px;
 }
 h2 {
     display:inline;
@@ -193,13 +209,12 @@ h2 {
     color: white;
 }
 
-footer, #Social_Media {
+footer{
     color: white;
     background-color: black;
     text-align: center;
     display: block;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+    }
 
 #container_box {
     display: block;
@@ -207,9 +222,10 @@ footer, #Social_Media {
     text-align: -moz-center;
     margin-bottom: 30px;
 }
+
 #contactMeHeader, #seeAppsLink {
   color: lightgray;
-  font-family: 'Trebuchet MS';
   font-size: 60px;
   margin-top: 50px;
+  display: block;
 }
