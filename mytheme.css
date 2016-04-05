@@ -52,7 +52,6 @@ li, .mainmenu {
     list-style-type: none;
     text-decoration: none;
 }
-
 .article {
     font-family: "Verdana";
     color: white;
@@ -65,7 +64,6 @@ li, .mainmenu {
     margin-left: auto;
     margin-right: auto;
 }
-
 .center {
     margin-left: auto;
     margin-right: auto;
@@ -74,7 +72,6 @@ li, .mainmenu {
     padding: 10px;
     text-align: center;
 }
-
 .contactmeboxes {
     padding: 10px;
     border-radius: 5px;
@@ -86,13 +83,11 @@ li, .mainmenu {
     font-size: 30px;
     color: gray;
 }
-
 .list {
     text-align: left;
     color: black;
     font-size: 0.9em;
 }
-
 .roundwhite {
     background-color: white;
     padding: 17px;
@@ -101,20 +96,13 @@ li, .mainmenu {
     border-radius: 25px;
     opacity: .8;
 }
-
 .right {
     margin-right: -30px;
     margin-top: -20px;
 }
-
-}
-
 .active {
     color: red;
 }
-
-
-
 .title {
     font-family: 'Righteous', 'cursive';
     color: white;
@@ -142,6 +130,7 @@ body {
 }
 
 img {
+    draggable: false;
     margin: 0px;
     border: 0px;
     padding: 0px;
@@ -153,6 +142,13 @@ form {
     text-align: center;
     font-family: "lucida console";
     font-size: 17px;
+}
+h2 {
+    display:inline;
+    font-family: 'Arial';
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: left;
 }
 
 #email {
@@ -201,31 +197,19 @@ footer, #Social_Media {
     color: white;
     background-color: black;
     text-align: center;
+    display: block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #container_box {
+    display: block;
     text-align: -webkit-center;
     text-align: -moz-center;
     margin-bottom: 30px;
 }
-#contactMeHeader {
+#contactMeHeader, #seeAppsLink {
   color: lightgray;
   font-family: 'Trebuchet MS';
   font-size: 60px;
   margin-top: 50px;
-}
-#seeAppsLink{
-    color: lightgray;
-    font-family: 'Trebuchet MS';
-    font-size: 60px;
-    margin-top: 50px;
-}
-
-h2 {
-    display:inline;
-    font-family: 'Arial';
-    font-size: 30px;
-    margin-top: 15px;
-    text-align: left;
 }
