@@ -208,6 +208,9 @@ h2 {
     background-color: #F6FF6B;
     color: white;
 }
+#footerLogo {
+  width: 400px;
+}
 
 footer{
     color: white;
